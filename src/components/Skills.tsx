@@ -45,12 +45,15 @@ const Skills = () => {
               <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">💻</div>
               <h4 className="text-lg sm:text-xl font-semibold text-white mb-2">LeetCode</h4>
               <p className="text-xl sm:text-2xl font-bold text-cyan-400 mb-4">600+ Problems Solved</p>
-              <a 
-                href="#" 
-                className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
-              >
-                View My Profile
-              </a>
+        <a
+  href="https://leetcode.com/u/Prathamesh_Patil_120/"
+  className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View My Profile
+</a>
+
             </div>
           </div>
         </div>
