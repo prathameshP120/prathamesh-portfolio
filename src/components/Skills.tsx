@@ -46,31 +46,56 @@ const Skills = () => {
         </div>
 
         {/* Problem Solving Journey */}
-        <div className="flex justify-center">
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-4 sm:p-6 lg:p-8 hover:border-cyan-400/50 transition-all duration-300 w-full max-w-md mx-auto">
-            <h3 className="text-xl sm:text-2xl font-semibold text-cyan-400 mb-4 sm:mb-6 text-center">
-              Problem Solving Journey
-            </h3>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">💻</div>
-              <h4 className="text-lg sm:text-xl font-semibold text-white mb-2">
-                LeetCode
-              </h4>
-              <p className="text-xl sm:text-2xl font-bold text-cyan-400 mb-4">
-                600+ Problems Solved
-              </p>
+       <div className="flex justify-center">
+  <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-4 sm:p-6 lg:p-8 hover:border-cyan-400/50 transition-all duration-300 w-full max-w-md mx-auto">
+    <h3 className="text-xl sm:text-2xl font-semibold text-cyan-400 mb-4 sm:mb-6 text-center">
+      Competitive Programming
+    </h3>
 
-              <Link
-                href="https://leetcode.com/u/Prathamesh_Patil_120/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
-              >
-                View My Profile
-              </Link>
-            </div>
-          </div>
-        </div>
+    <div className="text-center">
+      {/* Logo Row */}
+      <div className="flex justify-center items-center gap-4 mb-4">
+        <img
+          src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
+          alt="LeetCode Logo"
+          className="h-8 w-auto sm:h-10"
+        />
+        <img
+          src="https://sta.codeforces.com/s/62607/images/codeforces-logo-with-telegram.png"
+          alt="Codeforces Logo"
+          className="h-8 w-auto sm:h-10"
+        />
+      </div>
+
+      <h4 className="text-lg sm:text-xl font-semibold text-white mb-2">
+        LeetCode &amp; Codeforces
+      </h4>
+      <p className="text-base sm:text-lg lg:text-xl font-bold text-cyan-400 mb-4 px-2">
+        600+ Problems Solved on LeetCode, GFG, and Codeforces
+      </p>
+
+      <div className="flex flex-col sm:flex-row justify-center gap-3">
+        <Link
+          href="https://leetcode.com/u/Prathamesh_Patil_120/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
+        >
+          LeetCode Profile
+        </Link>
+
+        <Link
+          href="https://codeforces.com/profile/YourCodeforcesUsername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
+        >
+          Codeforces Profile
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   );
