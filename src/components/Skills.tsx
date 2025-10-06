@@ -50,43 +50,40 @@ const Skills = () => {
 
             <div className="text-center">
               {/* Logo Row */}
-              <div className="flex justify-center items-center gap-4 mb-4">
-                <img
-                  src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
-                  alt="LeetCode Logo"
-                  className="h-8 w-auto sm:h-10"
-                />
-                <img
-                  src="https://sta.codeforces.com/s/62607/images/codeforces-logo-with-telegram.png"
-                  alt="Codeforces Logo"
-                  className="h-8 w-auto sm:h-10"
-                />
-              </div>
-
-              <h4 className="text-lg sm:text-xl font-semibold text-white mb-2">
-                LeetCode &amp; Codeforces
-              </h4>
+             
               <p className="text-base sm:text-lg lg:text-xl font-bold text-cyan-400 mb-4 px-2">
                 600+ Problems Solved on LeetCode, GFG, and Codeforces
               </p>
+
+               <h4 className="text-lg sm:text-xl font-semibold text-white mb-2">
+                View Profiles
+              </h4>
 
               <div className="flex flex-col sm:flex-row justify-center gap-3">
                 <a
                   href="https://leetcode.com/u/Prathamesh_Patil_120/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
+                  className="inline-block text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  LeetCode Profile
+                   <img
+                  src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
+                  alt="LeetCode Logo"
+                  className="h-8 w-auto sm:h-10"
+                />
                 </a>
 
                 <a
                   href="https://codeforces.com/profile/YourCodeforcesUsername"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-cyan-400 text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
+                  className="inline-block  text-slate-900 px-4 sm:px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Codeforces Profile
+                   <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Codeforces_logo.svg/768px-Codeforces_logo.svg.png?20200622150123"
+                  alt="Codeforces Logo"
+                  className="h-8 w-auto sm:h-10"
+                />
                 </a>
               </div>
             </div>
