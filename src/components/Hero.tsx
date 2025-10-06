@@ -48,11 +48,11 @@ const Hero = () => {
         {/* Problem Solving Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12 px-4 sm:px-0">
           <div className="bg-slate-800/50 rounded-lg p-4 sm:p-6 backdrop-blur-sm border border-slate-700 text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">500+</div>
+            <div className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">600+</div>
             <div className="text-gray-300 text-sm sm:text-base">Problems Solved</div>
           </div>
           <div className="bg-slate-800/50 rounded-lg p-4 sm:p-6 backdrop-blur-sm border border-slate-700 text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">2025</div>
+            <div className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-1 sm:mb-2">2026</div>
             <div className="text-gray-300 text-sm sm:text-base">Graduate Class</div>
           </div>
           <div className="bg-slate-800/50 rounded-lg p-4 sm:p-6 backdrop-blur-sm border border-slate-700 text-center">

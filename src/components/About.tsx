@@ -13,7 +13,7 @@ const About = () => {
             <p>
               I am a passionate Full Stack Developer with expertise in the MERN stack. 
               Currently pursuing my B.E. in Computer Science at Sinhgad College of Engineering, 
-              Pune, graduating in 2025.
+              Pune, graduating in 2026.
             </p>
           </div>
           
@@ -30,7 +30,7 @@ const About = () => {
                 </h4>
                 <span className="text-cyan-400 font-medium px-3 py-1 bg-cyan-500/10 rounded-full
                                group-hover:bg-cyan-500/15 transition-colors duration-300 text-sm sm:text-base inline-block w-fit">
-                  2021 - 2025
+                  2022 - 2026
                 </span>
               </div>
               <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 text-sm sm:text-base">
